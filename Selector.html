@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+            color: black !important;
+        }
+        h1
+        {
+            background-color: blue;
+            text-align: center;
+            border: 5px solid rgb(7, 7, 52);
+            color: violet; 
+        }
+        body
+        {
+            background-color: rgba(238, 130, 238, 0.462);
+        }
+        .Title
+        {
+            background-color: white;
+            text-align: right;
+            border: 5px solid rgba(153, 16, 73);
+            color: rgb(255, 255, 0);
+        }
+        #abs
+        {
+            text-shadow: 3px 3px 5px red;
+        }
+        #demo
+        {
+            color: aqua;
+            text-align: center;
+            border-bottom: 3px double purple;
+            border-right: 3px dashed blueviolet;
+            border-left: 3px solid rgb(49, 2, 49);
+        }
+        .Title,#demo
+        {
+            text-transform: uppercase ;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is element selector</h1>
+    <h2 class="Title" id="abs">This is class selector g</h2>
+    <h3 id="demo">This is id selector</h3>
+</body>
+</html>

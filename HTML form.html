@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <form>
+    <lable for="First Name">First Name</lable></br>
+    <!-- text bot input -->
+    <input type="text" name="username" placeholder="Enter your name"></br>
+    <!-- password -->
+    <label for="Password">Password</label></br>
+    <input type="password" name="password" placeholder="Enter the password">
+    </br>
+    <!-- Text area -->
+    <label for="comment">Comment</label></br>
+    <textarea name="comment" cols="60" rows="30" placeholder="Hello">Write your comment</textarea></br>
+    <!-- Select Dropdown-->
+    <label for="Age Group">Age Group</label></br>
+    <select name="Age Group">
+        <option value="1">Infant</option>
+        <option value="2">Tennage</option>
+        <option value="3">Mature</option>
+    </select>
+    </br>
+    <!-- Checkbox -->
+    <label for="Checkbox">Select Faculty</label></br>
+        <input type="checkbox" name="Faculty">BCT
+        <input type="checkbox" name="Faculty">BCE
+        <input type="checkbox" name="Faculty">Civil
+    </br>
+    <!-- Radiobox -->
+    <label for="Radiobox">Select Faculty</label></br>
+        <input type="radio" name="Faculty">BCT
+        <input type="radio" name="Faculty">BCE
+        <input type="radio" name="Faculty">Civil
+    <br>
+    <!-- submit button -->
+    <label for="submit">Submit</label></br>
+    <input type="button" value="Submit"><br>
+
+    <button>Submit</button> <br>
+    <!-- input file -->
+    <input type="file" name="image">
+    <input type="hidden" name="username">HIDDEN
+    <input type="reset" name="reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    font-size: 100px;
+    background-color: rgb(92, 92, 92);
+}
+.one{
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(92, 92, 92);
+
+}
+.two{
+    
+    display: flex;
+
+}
+.red{
+    
+    color: red;
+
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red1{
+    color: red;
+}
+.blue1{
+    color: blue;
+}
+/* .red:hover{
+    transition: 30px;
+    transition: 5s;
+    color: blueviolet;
+    background-color: black;
+    font-size: 120px;
+    display: block;
+} */
+.link
+{
+    /* position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column; */
+    position: relative;
+    /* transform: translate(-50%,-50%); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+input
+{
+    font-size: 30px;
+    justify-content: center;
+    padding-left: 20px;
+}
+.search
+{
+    border-radius: 200px;
+    background-color: bisque;
+}
+button
+{
+    width: 200px;
+    height: 20px;
+    font-size: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+button.src
+{
+    height: 50px;
+    position: relative;
+}
+
